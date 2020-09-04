@@ -16,6 +16,7 @@ footer .row {
 header h1 {
   font-weight: 700;
   margin: 0;
+  
 }
 
 header nav {
@@ -34,7 +35,7 @@ header p {
   background-image: url('https://i.etsystatic.com/17870528/r/il/d08df2/2482776575/il_1140xN.2482776575_3q0i.jpg');
   background-size: cover;
   color: #ffffff;
-  height: 500px;
+  height: 650px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
@@ -42,11 +43,11 @@ header p {
   font-size: 60px;
   font-weight: 700;
   margin: 0;
-  color: #fff;
+  color: #000000;
 }
 
 .jumbotron h3 {
-  margin: 0 0 20px;
+  margin: 0 0 70px;
   color: #fff;
 }
 
