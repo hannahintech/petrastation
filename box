@@ -12,7 +12,8 @@
 <body>
 <header class="container">
 <div class="row">
-  <h1 class="col-sm-4">Petra Station</h1>
+  <h1 class="col-sm-3">Petra Station</h1>
+
   <nav class="col-sm-8 text-right">
     <a href:"newest.html">newest</a>
     <a href:"catalogue.html">catalogue</a>
@@ -21,8 +22,11 @@
 
 
 </div>
+<div class:"row">
+	<  <h2 class="col-sm-12">Light Boxes</h2>
+</div>
  </header>
-<h2 class="col-sm-12">Light Boxes</h2>
+
 
   <section class="container">
   
