@@ -85,7 +85,7 @@ section .row img {
 }
 .btn.btn-primary:hover {
   color: #ffffff;
-  background-color: #17a2b8;
+  background-color: #000000;
   
 }
 .btn-secondary {
