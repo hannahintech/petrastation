@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Doorstop</title>
+  <title>Frames</title>
   <meta charset="utf-8"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
@@ -13,8 +13,8 @@
 <header class="container">
 <div class="row">
   <h1 class="col-sm-3">Petra Station</h1>
-
-  <nav class="col-sm-8 text-right">
+  <h2 class="col-sm-4">Light Boxes</h2>
+  <nav class="col-sm-5 text-right">
     <a href:"newest.html">newest</a>
     <a href:"catalogue.html">catalogue</a>
     <a href:"contact.html">contact</a> 
@@ -22,9 +22,7 @@
 
 
 </div>
-<div class:"row">
-	<  <h2 class="col-sm-12">Light Boxes</h2>
-</div>
+
  </header>
 
 
