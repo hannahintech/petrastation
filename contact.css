@@ -77,7 +77,7 @@ section .row img {
 
 .btn.btn-primary {
   
-  border-radius: 30px;
+  border-radius: 100px;
   border: 0px;
   color: #ffffff;
   text-shadow: none;
@@ -87,12 +87,12 @@ section .row img {
 
 .btn.btn-primary:hover {
   color: #ffffff;
-  background-color: #17a2b8;
+  background-color: #000000;
   
 }
 
 .btn-secondary {
-  background-color: #E8DFE0;
+  background-color: #000000;
   color: #ffffff;
   margin: 0 0 30px;
 }
