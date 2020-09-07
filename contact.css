@@ -75,7 +75,7 @@ section .row img {
   margin: 0 0 30px;
 }
 
-.btn.btn-primary {
+.collection-btn {
   border-radius: 2px;
   border: 0px;
   color: #ffffff;
@@ -83,12 +83,12 @@ section .row img {
   background-color: #000000;
 }
 
-.btn.btn-primary:hover {
+.collection-btn:hover {
   color: #000000;
   background-color: #fbd1d5;
 }
 
-.btn-secondary {
+.collection-btn-secondary {
   background-color: #E8DFE0;
   color: #ffffff;
   margin: 0 0 2px;
