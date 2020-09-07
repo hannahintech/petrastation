@@ -50,7 +50,21 @@ header p {
   margin: 0;
   color: #000000;
 }
-
+.boxes {
+  margin-top: 20px;
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  }
+  
+ .boxes .thumbnail {
+   border: 1px solid #fff;
+  }
+   
+  
+  
+ 
+  
 .jumbotron h3 {
   margin: 0 0 70px;
   color: #fff;
