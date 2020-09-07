@@ -75,25 +75,27 @@ section .row img {
   margin: 0 0 30px;
 }
 
-.collection-btn {
-  border-radius: 2px;
+.btn.btn-primary {
+  
+  border-radius: 30px;
   border: 0px;
   color: #ffffff;
   text-shadow: none;
   background-color: #000000;
+  
 }
 
-.collection-btn:hover {
-  color: #000000;
-  background-color: #fbd1d5;
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #17a2b8;
+  
 }
 
-.collection-btn-secondary {
+.btn-secondary {
   background-color: #E8DFE0;
   color: #ffffff;
-  margin: 0 0 2px;
+  margin: 0 0 30px;
 }
-
 footer {
   font-size: 12px;
   padding: 20px 0;
