@@ -25,6 +25,8 @@ header nav {
 }
 .btn {
   float: right;
+color: #ffffff;
+background: #000000;
 }
 
 .btn a {
