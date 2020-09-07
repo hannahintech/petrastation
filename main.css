@@ -16,7 +16,12 @@ footer .row {
 header h1 {
   font-weight: 700;
   margin: 0;
-  
+
+  h2 {
+    font-weight: 700; 
+    margin:0;
+    background: #000000;
+    
 }
 
 header nav {
