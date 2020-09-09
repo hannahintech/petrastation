@@ -32,7 +32,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://i.etsystatic.com/17870528/r/il/d08df2/2482776575/il_1140xN.2482776575_3q0i.jpg');
+  background-image: back.jpg;
   background-size: cover;
   color: #ffffff;
   height: 650px;
