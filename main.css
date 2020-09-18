@@ -37,18 +37,23 @@ header p {
   color: #ffffff;
   height: 650px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
+
 }
 
 .jumbotron h2 {
-  font-size: 60px;
+  font-size: 80px;
   font-weight: 700;
-  margin: 0;
+  margin: 10px;
+
   color: #000000;
+  background-color: #000000;
 }
 
 .jumbotron h3 {
   margin: 0 0 70px;
-  color: #fff;
+  color: #ffffff;
+  background-color: #000000;
+
 }
 .jumbotron p {
 color: #fffffff;
