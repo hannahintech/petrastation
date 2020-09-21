@@ -32,7 +32,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://github.com/petrastation/petrastation/blob/master/back.jpg?raw=true');
+  background-image: url('https://github.com/petrastation/petrastation/blob/master/main.jpg?raw=true'); 
   background-size: cover;
   color: #ffffff;
   height: 650px;
