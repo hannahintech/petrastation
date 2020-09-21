@@ -53,6 +53,7 @@ header p {
 .jumbotron p {
 color: #fffffff;
 background: #000000;
+opacity: 0.75;
 }
 
 section .row img {
