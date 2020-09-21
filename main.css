@@ -61,7 +61,7 @@ section .row img {
 }
 
 .btn.btn-primary {
-  border-radius: 30px;
+  border-radius: 60px;
   border: 0px;
   color: #ffffff;
   text-shadow: none;
@@ -79,6 +79,14 @@ section .row img {
   margin: 0 0 30px;
 }
 
+.doorstop-box {
+  font-size: 1.5em; 
+  font-family: 'Roboto';
+  color: #000000;
+  position: center; 
+  
+}
+
 footer {
   font-size: 12px;
   padding: 20px 0;
@@ -88,6 +96,24 @@ footer .col-sm-8 {
   display: flex;
   justify-content: flex-end;
 }
+p .doorstops, .box
+{
+  
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  
+  line-height: 14px;
+  margin-left: 20px;
+  padding: 10px;
+  position: relative;
+  top: 80%;
+  width: 60%;
+  background-color: white;
+  color: black;
+  opacity: 0.75;
+}
+
 
 footer ul {
   list-style: none;
