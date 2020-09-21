@@ -14,7 +14,7 @@ footer .row {
 }
 
 header h1 {
-  font-weight: 700;
+  font-weight: 500;
   margin: 0;
   
 }
@@ -32,32 +32,73 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: src="<img src="main.png" alt="artwork">"
+  background-image: background-image: url('https://raw.githubusercontent.com/petrastation/petrastation/master/main2.png');
   background-size: cover;
   color: #ffffff;
-  height: 650px;
+  height: 550px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
+  font-size: 30px;
+  font-style: ;
+  line-height: 14px;
+  margin-left: 20px;
+  padding: 10px;
+  position: relative;
+  top: 80%;
+  width: 60%;
+  background-color: black;
+  color: white;
 
 }
 
 .jumbotron h2 {
-  font-size: 80px;
-  font-weight: 700;
-  margin: 10px;
+  
+  font-weight: 100;
+  margin: 0px;
 
-  color: #000000;
+  color: #ffffff;
   background-color: #000000;
+  font-size: 60px;
+  font-style: ;
+  line-height: 14px;
+  margin-left: 20px;
+  padding: 10px;
+  position: relative;
+  top: 80%;
+  width: 60%;
+  background-color: black;
+  color: white;
+  ;
 }
 
 .jumbotron h3 {
   margin: 0 0 70px;
   color: #ffffff;
   background-color: #000000;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 14px;
+  margin-left: 20px;
+  padding: 10px;
+  position: relative;
+  top: 80%;
+  width: 60%;
+  background-color: black;
+  color: white;
 
 }
 .jumbotron p {
 color: #fffffff;
 background: #000000;
+font-size: 14px;
+  font-style: italic;
+  line-height: 14px;
+  margin-left: 20px;
+  padding: 10px;
+  position: relative;
+  top: 80%;
+  width: 60%;
+  background-color: black;
+  color: white;
 }
 
 section .row img {
@@ -70,21 +111,31 @@ section .row img {
 }
 
 .btn.btn-primary {
-  border-radius: 30px;
+  border-radius: 0px;
   border: 0px;
   color: #ffffff;
   text-shadow: none;
   background-color: #000000;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 14px;
+  margin-left: 20px;
+  padding: 10px;
+  position: relative;
+  top: 80%;
+  width: 60%;
+  background-color: black;
+  color: white;
   
 }
 .btn.btn-primary:hover {
   color: #ffffff;
-  background-color: #17a2b8;
+  background-color: black;
   
 }
 .btn-secondary {
-  background-color: #E8DFE0;
-  color: #ffffff;
+  background-color: #white;
+  color: #black;
   margin: 0 0 30px;
 }
 
