@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  padding: 20px 0;
+  margin: : 20px 0;
 }
 
 header .row,
@@ -15,7 +15,7 @@ footer .row {
 
 header h1 {
   font-weight: 700;
-  margin: 0;
+  padding: 0;
   
 }
 
@@ -29,36 +29,38 @@ header p {
   margin: 0;
 }
 
-.jumbotron {
+.contact {
   display: flex;
   align-items: center;
-  background-image: url('https://github.com/petrastation/petrastation/blob/master/main.jpg?raw=true'); 
-  background-size: cover;
+  background-image: url('https://64.media.tumblr.com/f9210e385b3e7d676e2070a5bf39122f/f53187687a593154-85/s1280x1920/09e4109b43ce881479479b17e3306c58a75dc5a5.jpg'); 
+  background-size: flex;
   color: #ffffff;
-  height: 650px;
+  height: 550px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
-.jumbotron h2 {
+.contact h2 {
   font-size: 60px;
   font-weight: 700;
   margin: 0;
   color: #000000;
 }
 
-.jumbotron h3 {
-  margin: 0 0 70px;
+.contact h3 {
+  margin: 0px;
   color: #fff;
 }
-.jumbotron p {
+.contact p {
 color: #fffffff;
 background: #000000;
 opacity: 0.75;
+margin: 0px;
+
 }
 
 section .row img {
   margin: 0 0 30px;
-  width: 100%;
+  width: relative;
 }
 
 .col-md-6 {

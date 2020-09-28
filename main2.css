@@ -1,0 +1,79 @@
+header: 
+	{display: flex; 
+	flex-direction: row;
+  	justify-content: flex-end;
+  	flex-wrap: wrap;
+  	}
+
+
+header h1 {
+  font-weight: 3em;
+  margin: 0;
+  color: #000000; 
+  font-size: 2.5em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+
+.doorstop-box: {
+	display: flex;
+	flex-direction: row; 
+	justify-content: flex-end;
+
+}
+  		
+section .showbit: {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+  	flex-wrap: wrap; 
+  
+  	
+  	background-image: url('https://64.media.tumblr.com/99952ce3626aeb519f283ffd0254fd7f/db2a3a733daaa614-dc/s1280x1920/f3acac3c4d0e96198c8cab4dd5d6e753afd08dd9.jpg');
+  	background-size: cover;
+  	color: #ffffff;
+  	height: 550px;
+  	text-shadow: 0.25px 0.25px 0.25px #000000;
+  	
+
+}
+
+.doorstop-box {
+  font-size: 1.5em; 
+  font-family: 'Roboto';
+  color: #000000;
+  position: center; 
+  
+}
+.btn.btn-primary {
+  border-radius: 60px;
+  border: 0px;
+  color: #ffffff;
+  text-shadow: none;
+  background-color: #000000;
+  
+}
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #17a2b8;
+  
+}
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+
+
+footer: {
+	font-size: 12px;
+  	padding: 20px 0;
+	display: flex;
+  	justify-content: flex-end;
+}
+
