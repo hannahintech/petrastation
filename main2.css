@@ -1,79 +1,156 @@
-header: 
-	{display: flex; 
-	flex-direction: row;
-  	justify-content: flex-end;
-  	flex-wrap: wrap;
-  	}
+*{
+	box-sizing: border-box;
+}
 
+body {
+  background-color: white;
+  font-family: 'Oswald', sans-serif
 
+  
+}
+section .description img {
+	width: cover; 
+	margin: 20px auto;
+	padding: 20px auto;
+	background-position: center;
+	background-size: cover;
+ 	text-align: center;
+ 	position: static;
+ 	 width: 100%;
+    height: auto;
+    max-width: 100%;
+    background-size: contain;
+    min-width: 100%;
+  	
+
+}
+
+header {
+	box-sizing: border-box;
+	border: 2px solid black;
+	width: 100%;
+  	z-index: 2;
+  	display: inline-block;
+  	height: auto;
+  	background-color: rgba(0, 0, 0, 0.4);
+  	 min-width: 100%;
+
+}
+ 
+header ul {
+  margin: 20px 2px;
+  padding: 1px 1px ;
+  text-align: center;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: stack;
+ width: 13%;
+ height: 100%;
+
+}
+header li  {
+  
+  text-decoration: none;
+  font-size: 16px;
+  margin: auto 3px;	
+  float: center;
+  position: relative;
+  height:20px;
+  width: 60px;
+  font-family: 'Oswald', sans-serif;
+  display: inline-block;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #000000;
+  opacity: 0.6;
+  
+}
+li a {
+	color: #ffffff;
+	background-color: #000000;
+	opacity: 0.6;
+
+}
+
+li a:hover {
+	color: #ffffff;
+	background-color: #000000;
+	opacity: 1;
+}
 header h1 {
-  font-weight: 3em;
-  margin: 0;
+
+  font-size: 60px;
+  width: 33%;
+  float: left;
   color: #000000; 
-  font-size: 2.5em;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  
-
-.doorstop-box: {
-	display: flex;
-	flex-direction: row; 
-	justify-content: flex-end;
-
+  margin: 5px auto;
+  position: relative;
+  text-align: center;
+  display: inline-block;
 }
-  		
-section .showbit: {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-  	flex-wrap: wrap; 
-  
-  	
-  	background-image: url('https://64.media.tumblr.com/99952ce3626aeb519f283ffd0254fd7f/db2a3a733daaa614-dc/s1280x1920/f3acac3c4d0e96198c8cab4dd5d6e753afd08dd9.jpg');
-  	background-size: cover;
-  	color: #ffffff;
-  	height: 550px;
-  	text-shadow: 0.25px 0.25px 0.25px #000000;
-  	
 
+header h4 {
+	color: #000000; 
+	position: relative;
+	text-align: center;
+	display: inline-block;
+	float: right;
+	width: 40%;
+	font-size: 35px;
+	margin: 15px 0px;
+	padding: 2px 6px 2px 2px;
+	
+	overflow: visible;
 }
+
 
 .doorstop-box {
+	display: inline-block;
   font-size: 1.5em; 
-  font-family: 'Roboto';
+  font-family: 'Raleway';
   color: #000000;
-  position: center; 
-  
-}
-.btn.btn-primary {
-  border-radius: 60px;
-  border: 0px;
-  color: #ffffff;
-  text-shadow: none;
-  background-color: #000000;
-  
-}
-.btn.btn-primary:hover {
-  color: #ffffff;
-  background-color: #17a2b8;
-  
-}
-.btn-secondary {
-  background-color: #E8DFE0;
-  color: #ffffff;
-  margin: 0 0 30px;
-}
-
-section .row img {
-  margin: 0 0 30px;
+  text-align: center;
   width: 100%;
+  height: auto;
+	margin: 30px auto;
+  
+}
+
+.doorstop-box img {
+	width: 50%;
+	display: inline-block;
+}
+
+.contact {
+	margin: 40px auto; 
+	text-align: center;
+	border: 1px solid #000000;
+	font-size: 30px;
+	color: #ffffff;
+	background-color: #000000;
+	width: 300px;
+	height: 167px;
+
+}
+footer .footer {
+	display: inline;
+	 width: 100%;
+  height: auto;
 
 
-footer: {
-	font-size: 12px;
-  	padding: 20px 0;
-	display: flex;
-  	justify-content: flex-end;
+}
+footer p {
+	display: inline-block;
+	text-align: center;
+}
+
+footer ul {
+	margin: 30px auto;
+	text-align: center;
+}
+footer li {
+	display: inline-block;
+	
+
 }
 
