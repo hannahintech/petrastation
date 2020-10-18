@@ -2,13 +2,11 @@
 	box-sizing: border-box;
 }
 html {
-	 font-family: 'Oswald', sans-serif;
-   font-size: 
- 
+	 font-family: 'Oswald', sans-serif; 
 }
 body {
   background-color: rgba(255, 255, 255, 1);
-  background-img: url('https://64.media.tumblr.com/02f88783761e227f1550305fae008c2d/c1bad22d6eaeacba-ac/s1280x1920/1a6e718510d17331369cc506e88969a6b3dd7c5b.jpg');
+  /* background: url('https://64.media.tumblr.com/02f88783761e227f1550305fae008c2d/c1bad22d6eaeacba-ac/s1280x1920/1a6e718510d17331369cc506e88969a6b3dd7c5b.jpg'); */
   background-repeat: no-repeat;
 
   background-size: cover;
@@ -17,31 +15,17 @@ body {
 
 }
 
-
-
 .header-box {
   width: 40%;
   height: auto;
   top: 1rem;
-  z-index: 2;
-
+  z-index: 999;
   float: right;
-  display: inline-block;
-  position: fixed;
   
   
 }
 
-
-.box {
-  ;
-}
-
-.doorstop {
-  ;
-}
 nav ul {
-  margin: ;
   padding: 1px 1px ;
   text-align: center;
   max-width: 20%;
@@ -80,19 +64,13 @@ nav li a:hover {
 }
 
 header h1 {
-
-  font-size: 4rem;
-  width: 20%;
-  height: 100%;
-  float: right;
-  color: #ffffff;
+  width: 36%;
+  height: 75%;
   padding: 0rem 0rem 0.5rem 0rem; 
   margin: 1rem 0rem 0rem 0rem;
   position: fixed;
-  text-align: ;
   display: inline-block;
   top: 1rem ;
-  (255, 255, 255, 0.5);
   color: #000000;
   font-size: 10rem;
   transform: rotate(90deg);
@@ -106,7 +84,6 @@ header h4 {
 	text-align: center;
 	display: inline-block;
   width: 50%;
-	float: center;
 	max-width: 100%;
 	font-size: 2rem;
 	margin: auto;
@@ -148,7 +125,6 @@ ul a {
 	display: inline-block;
 	width: 100%;
 	height: auto;
-	float: center ;
   top: 5rem;
 
 
@@ -169,7 +145,6 @@ footer .footer {
   width: 90%;
   height: auto;
   display: inline-block;
-  float: bottom;
   text-align: center;
   margin: auto;
   color: #ffffff;
@@ -193,7 +168,6 @@ footer li {
 	text-align: center;
 	color: #ffffff;
 	margin: 0 0 0 0;
-	float: center; 
 	overflow: visible;
 	
 	
