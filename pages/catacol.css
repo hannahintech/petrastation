@@ -1,0 +1,217 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+}
+body {
+  background-color: rgba(255, 255, 255, 1);
+  /* background: url('https://64.media.tumblr.com/02f88783761e227f1550305fae008c2d/c1bad22d6eaeacba-ac/s1280x1920/1a6e718510d17331369cc506e88969a6b3dd7c5b.jpg'); */
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  overflow: scroll;
+}
+
+.header-box {
+  width: 40%;
+  height: auto;
+  top: 1rem;
+  z-index: 999;
+  float: right; /* change to left on media query max 700px */
+}
+
+nav ul {
+  padding: 1px 1px;
+  text-align: center;
+  max-width: 20%;
+  height: auto;
+  float: right;
+  position: fixed;
+  list-style-type: none;
+  list-style-position: outside;
+}
+
+nav li {
+  font-size: 2.5rem;
+  text-align: center;
+  width: 100%;
+  border: 100%;
+  border-radius: 3;
+  height: auto;
+  margin: 2rem 2rem;
+  padding: 1rem 1rem;
+  font-family: "Oswald", sans-serif;
+  display: column;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+nav li a:hover {
+  color: #ffffff;
+  background-color: #000000;
+  opacity: 0.8;
+}
+
+header h1 {
+  width: 36%;
+  height: 75%;
+  padding: 0rem 0rem 0.5rem 0rem;
+  margin: 1rem 0rem 0rem 0rem;
+  position: fixed;
+  display: inline-block;
+  top: 0.5rem;
+  color: #000000;
+  font-size: 9rem;
+  transform: rotate(90deg);
+  white-space: nowrap;
+}
+
+header h4 {
+  color: rgba(0, 0, 0, 1);
+  font-weight: 400;
+  position: static;
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+  max-width: 100%;
+  font-size: 2rem;
+  margin: auto;
+  margin-bottom: ;
+  padding: 0rem 0rem 3rem 0rem;
+  height: auto;
+  overflow: visible;
+}
+
+h1 a {
+  color: #cc0000;
+}
+
+ul a {
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+.doorstop-box {
+  /* display: ; */
+  font-size: 1rem;
+  font-family: "Raleway";
+  color: #000000;
+  width: 50%;
+  height: auto;
+  margin: 2rem auto;
+  overflow: visible;
+  top: 1rem;
+  left: 3rem;
+  margin: 2rem auto;
+  float: left;
+  position: relative;
+}
+
+.doorstop-box img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  top: 5rem;
+}
+.contact {
+  margin: 40px auto;
+  text-align: center;
+  border: 1px solid #000000;
+  font-size: 30px;
+  color: #ffffff;
+  background-color: #000000;
+  width: 300px;
+  height: 167px;
+}
+footer .footer {
+  display: inline;
+  width: 90%;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  color: #ffffff;
+  top: 2rem;
+  overflow: visible;
+}
+
+footer .social-media {
+  margin: 3rem auto;
+  text-align: center;
+  margin: auto;
+  float: center;
+  max-width: 60%;
+  height: auto;
+  overflow: visible;
+}
+footer li {
+  display: inline-block;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 0 0 0;
+  overflow: visible;
+}
+
+@media only screen and (max-width: 700px) and (orientation: portrait) {
+  .name {
+    transform: none;
+    float: left;
+    z-index: 999;
+    position: static;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    left: 0rem;
+    font-size: 4rem;
+    width: 100%;
+  }
+
+  nav span {
+    float: left;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    z-index: 999;
+    font-size: 2rem;
+    line-height: 1rem;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    transform: none;
+  }
+  nav ul {
+    width: 100%;
+    list-style-position: none;
+    display: inline-block;
+    position: relative;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    transform: none;
+    float: left;
+    height: auto;
+  }
+  .doorstop-box {
+    width: 80%;
+    padding: 3px;
+    position: relative;
+    overflow: hidden;
+    float: center;
+    top: 10rem;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+}
+
+@media screen only and (min-width: 1024px) and (max-width: 1600px) {
+}
+
+@media screen only and (min-width: 1600px) {
+}
